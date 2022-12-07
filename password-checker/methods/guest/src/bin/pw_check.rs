@@ -15,7 +15,7 @@ pub fn main() {
         }
     }
     if !valid {
-        panic!("Password must contain all unique characters");
+        panic!("Password must contain a punctuation character!");
     }
 
     let digest = sha::digest_u8_slice(private_password.as_bytes());
