@@ -7,3 +7,4 @@ edition = "2021"
 methods = { path = "../methods" }
 risc0-zkvm = "0.11"
 serde = "1.0"
+whisperer-core = { path = "../core" }
